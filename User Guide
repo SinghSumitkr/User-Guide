@@ -1,0 +1,93 @@
+Qlik Sense Dashboard User Guide
+Welcome to the new and improved Qlik Sense dashboard! This guide will help you navigate the redesigned interface, understand the new functionalities, and find the information you need quickly and efficiently.
+
+Table of Contents
+Overview of the New Interface
+Global Filters and KPIs
+Summarized Visualizations
+Local Filters and Chart Management
+Vertical Scrolling Navigation
+Tabular Data and Self-Service Reporting
+Search Functionality
+Current Selection Ribbon
+Global Search, Undo, and Redo Features
+Common Questions and Troubleshooting
+General Qlik Sense UI Features
+Contact Support
+1. Overview of the New Interface
+The new Qlik Sense dashboard has been redesigned to provide a more intuitive and user-friendly experience. It features a vertical flow, with information presented in a logical sequence from summary to detail. Users can quickly find what they need without jumping between different screens or tabs.
+
+Key Changes:
+Vertical Flow: A new layout where users scroll down to access more detailed information.
+Aesthetic Improvements: Enhanced visuals for a better user experience.
+2. Global Filters and KPIs
+At the top of the dashboard, you will find the Global Filters. These filters apply to the entire dashboard, allowing you to refine the data according to your needs. Below the filters are the Key Performance Indicators (KPIs), presented in bold fonts to give you a quick snapshot of product performance.
+
+Global Filters: Located at the top; they impact the entire dashboard.
+KPIs: Displayed below the filters; provide high-level insights at a glance.
+3. Summarized Visualizations
+On the main dashboard view, you will see a collection of summarized visualizations such as pie charts, bar charts, and combo charts. These visualizations offer a concise overview of the product’s performance and help you understand trends quickly.
+
+Visualizations: Include pie charts, bar charts, and combo charts.
+Purpose: To provide a summarized view of the data for quick insights.
+4. Local Filters and Chart Management
+Below some visualizations, you will find Local Filters. These filters are designed to manage specific charts rather than the entire dashboard. For example, the Periodicity Filter allows you to toggle between quarterly, yearly, and monthly trends for a specific combo chart.
+
+Local Filters: Focused filters for specific visualizations.
+Example: Periodicity Filter to manage quarterly, yearly, and monthly trends.
+5. Vertical Scrolling Navigation
+The new interface emphasizes a vertical flow, allowing users to scroll down to access different sections of the dashboard. This layout makes it easier to navigate from summary information to more detailed data without needing to jump between different views.
+
+Vertical Scrolling: Simply scroll down to access more detailed information.
+Benefit: A continuous flow of information for seamless analysis.
+6. Tabular Data and Self-Service Reporting
+As you scroll further, you’ll come across tabular data views like straight tables and pivot tables. For users who prefer more control over their data analysis, we have included Self-Service Reporting capabilities within the same flow.
+
+Tabular Data: Straight tables and pivot tables for detailed information.
+Self-Service Reporting: Customize dimensions and measures for deeper analysis.
+How to Use Self-Service Reporting:
+Scroll to the Self-Service Reporting section.
+Select your dimensions and measures from the available options.
+Use the available buttons to add or remove selections as needed.
+7. Search Functionality
+To help you find specific dimensions or measures quickly, the dashboard includes a Search Functionality. Simply type in part of the name or even a guess, and the relevant options will appear. For those who prefer voice commands, you can even speak the name to find what you’re looking for.
+
+Search Bar: Type or speak the name of the dimension or measure you need.
+Benefit: Saves time and improves efficiency in locating specific data points.
+8. Current Selection Ribbon
+The Current Selection Ribbon is a streamlined feature that allows you to see all your active filters and selections. Located at the top of the dashboard, this ribbon floats above your view, giving you quick access to your selections without cluttering the interface.
+
+Location: Floating at the top of the dashboard.
+Function: Displays active filters and selections in a sleek format.
+Global Search, Undo, and Redo Features
+Located on the Current Selection Ribbon, in the top-left corner, you will find icons for Global Search, Undo, and Redo. These features are designed to enhance user navigation and improve the overall experience:
+
+Global Search: Empowers users to search any data value from the entire dashboard. It performs a wild search, listing out all possible fields and related data values.
+Undo and Redo: Allow users to go back and forth with their selections. This is especially useful when experimenting with different filters and need to revert to previous states or reapply certain selections.
+9. Common Questions and Troubleshooting
+Q1: Where can I find the global filters?
+
+Answer: Global filters are located at the very top of the dashboard. They impact the entire dashboard, allowing for broad data filtering.
+Q2: How do I switch between different trend views for a specific chart?
+
+Answer: Use the local filter above the combo chart, known as the Periodicity Filter, to toggle between quarterly, yearly, and monthly trends.
+Q3: Why can’t I see all the dimensions in the Self-Service Report section?
+
+Answer: Use the Search Functionality to quickly find the dimensions you need. Type in part of the name, and it will appear.
+Q4: How do I remove a selection from the Self-Service Report?
+
+Answer: Click on the selection at the top of the Self-Service Report section to remove it or use the provided buttons to hide it temporarily.
+Q5: I made multiple selections, and now I’m lost. How can I review them?
+
+Answer: Check the Current Selection Ribbon at the top. It shows all active selections, and you can easily clear or modify them from there.
+Q6: How do I search for a specific data value across the entire dashboard?
+
+Answer: Use the Global Search button on the top-left corner of the Current Selection Ribbon. It performs a comprehensive search across all fields and values.
+10. General Qlik Sense UI Features
+Smart Search: Allows users to search across all data dimensions and measures in the app, providing a quick way to find relevant insights.
+Responsive Design: Automatically adjusts the layout based on the device or screen size, ensuring a consistent user experience.
+Bookmarking: Save specific states of the dashboard (filters, selections) for quick access later.
+Snapshots and Stories: Take snapshots of visualizations and create guided stories to share insights with others.
+Export Options: Export data and visualizations in various formats such as PDF, Excel, and images for offline use or reporting.
+11. Contact Support
+If you face any difficulties navigating the dashboard or have questions not covered in this guide, please contact our support team at support@example.com
