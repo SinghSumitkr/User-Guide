@@ -1,10 +1,6 @@
-Step Back / Step Forward
-The Step Back and Step Forward options in Qlik Sense are available to the right of the Smart Search icon in the Selections Bar. These options allow users to navigate through their selection history within the dashboard.
+The Clear All Selections option is located to the right of the Step Back and Step Forward icons in the Selections Bar. This feature allows users to quickly reset their selections within the dashboard.
 
 Key Features
-Step Back: Reverts to the previous selection state in your current session. This can be used repeatedly to move back through all previous selections, all the way to the first selection made in the session.
-Step Forward: Moves forward in the selection history, allowing you to return to a more recent state after stepping back.
-Additional Information
-The Step Back functionality works even if a selection has been locked. You can still step back to a state before that selection was made.
-These tools are especially useful for iterative data exploration, where users may need to experiment with various selections and then revert to previous states without manually reapplying each selection.
-Utilize the Step Back and Step Forward options to enhance your data exploration experience by effortlessly navigating through different states of your analysis.
+Clear All Selections: Clicking on this button clears all current selections made in the dashboard, providing a fresh state for new analysis.
+Locked Selections: Note that selections that are locked will not be cleared. Only unlocked selections are affected by this action.
+This tool is particularly useful when you want to start a new data exploration without manually deselecting each filter or selection made earlier.
