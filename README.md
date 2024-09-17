@@ -1,9 +1,54 @@
-I am excited to apply for the position of Data Management Lead - Metrics Visualization Developer within the AI/ML & Data Platform team at JPMorgan Chase. With over 14 years of experience in data visualization, business intelligence, and data management, coupled with my role as a Senior Associate at JPMorgan Chase, I am confident in my ability to contribute to the firm's mission of delivering high-quality, scalable data-driven decision-making solutions.
+During analysis, your selections are displayed above the sheet. Each selection item has a small bar at the bottom reflecting its state within that dimension. The bar can show three different states:
 
-In my current role, I have led the development and optimization of high-performance dashboards and reports, driving user engagement by 20% and reducing report generation times by 85%. My experience in setting up frameworks for standardized dashboard testing, validation, and code reviews has decreased production issues by 70%, significantly improving stakeholder confidence in the solutions we deliver. Additionally, I have successfully migrated QlikView dashboards to Qlik Sense, working on both front-end UI migration and backend data source transitions to AWS Athena and Aurora DB.
+Selected (green)
+Alternative (light gray)
+Excluded (dark gray)
+Locked values are displayed with a lock icon. When you click a selection item, a pop-up menu appears, allowing you to:
 
-I have a proven track record of collaborating with stakeholders to understand and meet reporting requirements. My experience working with large, complex data sets and performing statistical analysis aligns well with the responsibilities of developing and maintaining a firm-wide metrics reporting platform. I also bring a solid foundation in Qlik, SQL, and data visualization technologies such as HTML and CSS, as well as experience in Alteryx, which I used to develop interim reporting solutions.
+View the selection
+Edit or clear the selection
+Search for dimension values
+Lock the selection
+If you are using alternate states in the app, you will see those selections in the selection bar. The field in an alternate state will display the number of alternate states, allowing you to:
 
-In this role, I am eager to leverage my expertise in data visualization, automation, and metrics reporting to support the Chief Data Analytics Office and other key stakeholders in delivering actionable insights. My background in leading agile teams, fostering collaboration, and implementing process improvements will be instrumental in driving the development of innovative data solutions that meet business needs.
+Click on the field to view states
+Click on a state to see its selections
+Clear the selections for that state or clear all selections
+Selection Options
+1. Select All
+All values are selected and marked as selected.
+Alternative values (light gray) change to selected (green), and excluded values (dark gray) change state to selected excluded.
+Clearing the selections that caused exclusion will change those values to selected (green).
+2. Select Possible
+All possible values (white) are selected.
+This option is not available within a selection item, but in a filter pane, possible values may result from another selection.
+3. Select Alternative
+In fields where a selection has been made, alternative values (light gray) represent values that would have been possible if no selection had been made.
+Selecting alternative values turns previously selected values into alternative.
+4. Select Excluded
+If alternative values are present, they will be selected, and the previously selected values will become alternative.
+If no alternative values are available, the excluded values are selected, and the previously selected values become alternative.
+Searching within Selections or Visualizations
+You can search for values and make selections from the filtered results. Search options are available in the selection bar and within visualizations such as filter panes and tables. Searches are not case sensitive.
 
-Thank you for considering my application. I am excited about the opportunity to continue my career at JPMorgan Chase and contribute to the success of the AI/ML & Data Platform team. I look forward to the opportunity to discuss how my experience and skills can support your goals.
+Search Types
+1. Normal Search
+Displays strings that match the search string. If multiple strings are separated by spaces, they are interpreted as separate search strings.
+Wildcards are not allowed, but you can use plus (+) and minus (-) modifiers.
+Examples:
+
+"orange juice" → Finds only field values containing "orange juice".
+orange juice → Finds fields containing either "orange" or "juice".
+-orange -juice → Excludes results containing "orange" or "juice".
++orange +juice → Finds matches like "orange juice" or "orange and apple juice".
+2. Wildcard Search
+Does not support plus or minus modifiers.
+Supports the following wildcards:
+* → Matches any sequence of characters.
+? → Matches any single character (e.g., r?ck matches four-letter words starting with "r" and ending with "ck").
+^ → Starts the match at the beginning of a string.
+3. Expression Search
+Begins with an equals sign (=).
+Used to search for values across all fields associated with the search field.
+Example:
+=Sum(Sales) > 1000000 in the Customer field returns all customers with sales greater than 1,000,000.
