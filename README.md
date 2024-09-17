@@ -1,15 +1,13 @@
-The lock option allows you to protect your selections from being modified. Below are the steps for locking and unlocking selections:
+Bookmarking Selections
+When analyzing data, you may come across specific insights you'd like to revisit or share with others. Bookmarks allow you to save the current selection state of a sheet, making it easy to return to or share a particular analysis.
 
-Locking Selections
-To lock a selection:
+Bookmarks save both the selections and the sheet location, which can later be restored to a previous state. All bookmark tools can be accessed via the toolbar.
 
-Click the lock icon in the selection popup.
-Once locked, the selection cannot be changed or cleared.
-If you attempt to select excluded field values while a selection is locked, the selection item will flash, indicating that the lock prevents the selection from being altered.
-Note: You can step back in the selection history to a state before the dimension was locked.
+Default Bookmark
+A default bookmark allows you to set a specific sheet as the landing page of your app. If no default bookmark is set, the app overview is displayed when the app is opened.
 
-Unlocking Selections
-To unlock a selection:
+Key Points to Consider:
 
-Click the lock icon in the selection popup.
-Once unlocked, you can modify or clear the selection as needed.
+You can only set one default bookmark for an app.
+Clearing the selection of the default bookmark while viewing a sheet is possible, but the bookmark will be reapplied when the sheet is reloaded or reopened.
+If the app is open in another tab during an active session, the default bookmark will not override selections made in that other tab.
