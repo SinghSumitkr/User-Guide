@@ -1,13 +1,31 @@
-Bookmarking Selections
-When analyzing data, you may come across specific insights you'd like to revisit or share with others. Bookmarks allow you to save the current selection state of a sheet, making it easy to return to or share a particular analysis.
+Subject: Discussion on Delays in AWS Data Extract and Qlik Sense Configuration
 
-Bookmarks save both the selections and the sheet location, which can later be restored to a previous state. All bookmark tools can be accessed via the toolbar.
+Hi Team,
 
-Default Bookmark
-A default bookmark allows you to set a specific sheet as the landing page of your app. If no default bookmark is set, the app overview is displayed when the app is opened.
+I hope this email finds you well.
 
-Key Points to Consider:
+I wanted to bring to your attention some performance issues we’ve observed during our AWS data extraction process from Athena Glue tables. Specifically, we’ve noted significant delays compared to our previous GOS-based extractions, and we’d like to gather your insights on possible causes and solutions. Below are the key points of concern:
 
-You can only set one default bookmark for an app.
-Clearing the selection of the default bookmark while viewing a sheet is possible, but the bookmark will be reapplied when the sheet is reloaded or reopened.
-If the app is open in another tab during an active session, the default bookmark will not override selections made in that other tab.
+1. Increased Extraction Time from AWS Athena Glue Tables
+Our current data extraction from AWS (Athena Glue Tables) is taking approximately 5 times longer than the previous GOS environment. For example, we’ve seen notable delays in tables like EQL and MANS.
+We need to investigate why this significant performance degradation is occurring.
+2. Extracting Data from Glue Table with Minimal Conditions
+For one specific table, where we’ve only applied a simple condition (without any joins or complex calculations), the extraction time has increased exponentially.
+We need to determine why this is happening even with minimal transformations applied.
+3. Batch Data Transfer in Qlik Sense
+During the data load process into the Qlik Sense workspace (from the DEV AWS environment), we observed that data is being transferred in batches of 20,000 records.
+We want to understand whether this batching is expected behavior or if there’s a configuration setting in Qlik Sense or AWS that needs to be adjusted to improve the data transfer rate.
+4. Qlik Sense Configuration Details
+We would like to obtain a detailed understanding of the configuration settings in Qlik Sense for fetching data from external sources (in this case, AWS Athena Glue Tables).
+These configurations will be discussed further with our AWS architect to pinpoint any potential configuration bottlenecks that may be contributing to the delays.
+Next Steps:
+Could the AWS and Qlik Sense teams please provide their insights into the current configurations and any potential optimization strategies?
+Can we also set up a time to discuss these issues in further detail and explore ways to improve performance?
+Looking forward to your inputs. We would like to resolve this issue as quickly as possible, as it is impacting our data refresh timelines.
+
+Best regards,
+
+
+Follow-up Steps:
+If required, we can schedule a meeting with both the AWS and Qlik Sense architects to review the current setup and discuss potential optimizations.
+Once we have the Qlik Sense configuration details, we can share those with the AWS architect to pinpoint any specific areas that may require adjustments.
