@@ -38,3 +38,25 @@ Missed SLAs and user dissatisfaction due to delays in reports and data refreshes
 Higher costs and resource utilization on the remaining server.
 Reduced disaster recovery capabilities.
 To mitigate the impact, it’s critical to assess the capacity of the remaining server, prioritize critical tasks, and explore options such as scaling up the existing server or leveraging cloud-based resources for redundancy.
+
+
+
+
+
+
+
+When one QlikView distribution server goes down, the remaining server faces significant strain. Key impacts include:
+
+Performance Issues: Increased load leads to slower reloads, delayed report distributions, and potential system bottlenecks or crashes due to overload.
+
+Scalability Constraints: Without redundancy, the system struggles to handle additional users or data, limiting growth and causing delays for new projects.
+
+Single Point of Failure: The remaining server becomes a critical vulnerability. If it fails, all QlikView processes halt with no backup.
+
+Service-Level Impacts: Delays can lead to missed SLAs, delayed reports, and increased user complaints, negatively impacting business processes.
+
+Disaster Recovery Risks: Reduced server capacity highlights weaknesses in disaster recovery, with inconsistent data availability and outdated reports.
+
+Increased Costs: Handling all tasks on one server raises resource costs and requires more maintenance.
+
+To mitigate, consider offloading tasks, scaling resources, or using cloud backup to restore redundancy.
